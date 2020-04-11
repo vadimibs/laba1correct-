@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1583835565 source:c:\users\Татяна\desktop\labi\lab1season2\main.cpp
+	<iostream>
+	"product.h"
+	<string>
+	<stdlib.h>
+
+1583834869 c:\users\Татяна\desktop\labi\lab1season2\product.h
+	<string>
+
+1583834869 source:c:\users\Татяна\desktop\labi\lab1season2\product.cpp
+	<iostream>
+	"product.h"
+	<string>
+	<cstring>
+
+1583834869 ated upstream
+
+1586173593 source:c:\users\Татяна\desktop\labi\ex\main.cpp
+	<iostream>
+	"product.h"
+	<string>
+	<stdlib.h>
+
+1586172717 c:\users\Татяна\desktop\labi\ex\product.h
+	<string>
+
+1586173593 source:c:\users\Татяна\desktop\labi\ex\product.cpp
+	<iostream>
+	"product.h"
+	<string>
+	<cstring>
+
+1586172510 shed changes
+
