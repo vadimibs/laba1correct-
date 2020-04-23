@@ -27,6 +27,7 @@ void infproduct(short countOfProduct, Product *Products)//выводит инф�
     for (short i = 0; i < countOfProduct; i++)
     {
         cout << i+1 << ")";//начинаем массив с ненулевого элемента
+<<<<<<< HEAD
 
         Products[i].printInformationAboutProduct();// вызовем функцию
 
@@ -34,13 +35,26 @@ void infproduct(short countOfProduct, Product *Products)//выводит инф�
         Products[i].printInformationAboutProduct();// вызовем функцию
     }
 
+=======
+
+        Products[i].printInformationAboutProduct();// вызовем функцию
+
+
+        Products[i].printInformationAboutProduct();// вызовем функцию
+    }
+
+>>>>>>> master
 }
 
 int main()
 {
 
    setlocale(LC_ALL, "Russian");
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> master
     string tmpName, tmpColor;//временное
     short var = 0, tmpsize = 0, countOfProduct = 1, i = 0, y = 0;//задаётся массив
     Product *Products = new Product[countOfProduct], *tmpProducts;//создаётся массив на кол-во продуктов
@@ -96,10 +110,19 @@ int main()
                 case 7:
                     cout << "\n Color product:\t" << (tmpColor = Products[i-1].getColor()) << endl;
                     break;
+<<<<<<< HEAD
 
                 case 8:
                     {
 
+=======
+<<<<<<< Updated upstream
+                case 8:{
+=======
+                case 8:
+                    {
+>>>>>>> Stashed changes
+>>>>>>> master
                     countOfProduct++;//Цвет продукта
                     tmpProducts = new Product[countOfProduct];//создаём новый динамический массив с чилом продуктов на 1 больше постоянного
                     for (y = 0; y < countOfProduct-1; y++)
@@ -130,7 +153,14 @@ int main()
                     }
             }
         }
+<<<<<<< HEAD
 
     }
 
 
+=======
+
+    }
+
+
+>>>>>>> master

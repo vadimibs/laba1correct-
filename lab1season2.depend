@@ -14,7 +14,11 @@
 	<string>
 	<cstring>
 
+<<<<<<< HEAD
 1586172510 ated upstream
+=======
+1583834869 ated upstream
+>>>>>>> master
 
 1586173593 source:c:\users\Татяна\desktop\labi\ex\main.cpp
 	<iostream>
@@ -31,20 +35,39 @@
 	<string>
 	<cstring>
 
+<<<<<<< HEAD
 1587627528 shed changes
 
 1587629616 source:c:\users\Татяна\desktop\labi\laba1correct;\main.cpp
+=======
+1586172510 shed changes
+
+<<<<<<< Updated upstream
+=======
+1586173593 source:c:\users\Татяна\desktop\labi\laba1correct;\main.cpp
+>>>>>>> master
 	<iostream>
 	"product.h"
 	<string>
 	<stdlib.h>
 
+<<<<<<< HEAD
 1587629184 c:\users\Татяна\desktop\labi\laba1correct;\product.h
 	<string>
 
 1587629600 source:c:\users\Татяна\desktop\labi\laba1correct;\product.cpp
+=======
+1587627860 c:\users\Татяна\desktop\labi\laba1correct;\product.h
+	<string>
+
+1587627528 source:c:\users\Татяна\desktop\labi\laba1correct;\product.cpp
+>>>>>>> master
 	<iostream>
 	"product.h"
 	<string>
 	<cstring>
 
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
+>>>>>>> master

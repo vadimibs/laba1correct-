@@ -23,9 +23,17 @@ using namespace std;
         this -> size = otherProduct.size;
         this -> color = otherProduct.color;
     }
+<<<<<<< HEAD
 
     void Product :: printInformationAboutProduct() const
 
+=======
+<<<<<<< Updated upstream
+    void Product :: printInformationAboutProduct() сonst
+=======
+    void Product :: printInformationAboutProduct() const
+>>>>>>> Stashed changes
+>>>>>>> master
     {
          cout << "Name: " << name << "\tSize: " << size << "\tColor: " << color << endl;
     }
@@ -54,9 +62,15 @@ using namespace std;
     {
         return color;
     }
+<<<<<<< HEAD
 
 
 
+=======
+<<<<<<< Updated upstream
+
+=======
+>>>>>>> master
      Product& Product :: operator ++()//оператор увеличение поля
     {
         this->size ++;
@@ -159,5 +173,9 @@ using namespace std;
         in >> product_in.color;
         return in;
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> Stashed changes
+>>>>>>> master
 

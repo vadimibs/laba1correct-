@@ -21,6 +21,11 @@ public:
     string getName() const;//получить
     short getSize() const;
     string getColor() const ;
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> master
     Product& operator ++ (); //префиксный инкремент
     Product& operator -- (); // префиксный декремент
     Product operator ++ (int); //постфиксный инкремент
@@ -34,7 +39,11 @@ public:
     Product& operator = (const Product product) ;// оператора присваивания
     friend istream& operator >> (istream &in, Product &product_in);// оператора ввода
     friend ostream& operator << (ostream &out, const Product &product_in) ;// оператора вывода
+<<<<<<< HEAD
 
+=======
+>>>>>>> Stashed changes
+>>>>>>> master
 };
 
 #endif // PRODUCT_H_INCLUDED
