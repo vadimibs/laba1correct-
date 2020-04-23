@@ -33,3 +33,21 @@
 
 1586172510 shed changes
 
+<<<<<<< Updated upstream
+=======
+1586173593 source:c:\users\Татяна\desktop\labi\laba1correct;\main.cpp
+	<iostream>
+	"product.h"
+	<string>
+	<stdlib.h>
+
+1587627860 c:\users\Татяна\desktop\labi\laba1correct;\product.h
+	<string>
+
+1587627528 source:c:\users\Татяна\desktop\labi\laba1correct;\product.cpp
+	<iostream>
+	"product.h"
+	<string>
+	<cstring>
+
+>>>>>>> Stashed changes

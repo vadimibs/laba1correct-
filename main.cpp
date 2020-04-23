@@ -96,7 +96,12 @@ int main()
                 case 7:
                     cout << "\n Color product:\t" << (tmpColor = Products[i-1].getColor()) << endl;
                     break;
+<<<<<<< Updated upstream
                 case 8:{
+=======
+                case 8:
+                    {
+>>>>>>> Stashed changes
                     countOfProduct++;//Цвет продукта
                     tmpProducts = new Product[countOfProduct];//создаём новый динамический массив с чилом продуктов на 1 больше постоянного
                     for (y = 0; y < countOfProduct-1; y++)
