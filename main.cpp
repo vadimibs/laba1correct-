@@ -27,43 +27,16 @@ void infproduct(short countOfProduct, Product *Products)//выводит инф�
     for (short i = 0; i < countOfProduct; i++)
     {
         cout << i+1 << ")";//начинаем массив с ненулевого элемента
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-
-        Products[i].printInformationAboutProduct();// вызовем функцию
 
 
         Products[i].printInformationAboutProduct();// вызовем функцию
     }
-
-=======
-
-        Products[i].printInformationAboutProduct();// вызовем функцию
-
-
-        Products[i].printInformationAboutProduct();// вызовем функцию
-    }
-
->>>>>>> master
-=======
-        Products[i].printInformationAboutProduct();// вызовем функцию
-}
->>>>>>> Stashed changes
 }
 
 int main()
 {
-<<<<<<< Updated upstream
-
-   setlocale(LC_ALL, "Russian");
-<<<<<<< HEAD
-
-=======
-
->>>>>>> master
-=======
     setlocale(LC_ALL, "Russian");
->>>>>>> Stashed changes
+
     string tmpName, tmpColor;//временное
     short var = 0, tmpsize = 0, countOfProduct = 1, i = 0, y = 0;//задаётся массив
     Product *Products = new Product[countOfProduct], *tmpProducts;//создаётся массив на кол-во продуктов
@@ -118,26 +91,9 @@ int main()
                     break;
                 case 7:
                     cout << "\n Color product:\t" << (tmpColor = Products[i-1].getColor()) << endl;
-<<<<<<< Updated upstream
-                    break;
-<<<<<<< HEAD
-
-                case 8:
-                    {
-
-=======
-<<<<<<< Updated upstream
-                case 8:{
-=======
-                case 8:
-                    {
->>>>>>> Stashed changes
->>>>>>> master
-=======
                     break;
                 case 8:
                     {
->>>>>>> Stashed changes
                     countOfProduct++;//Цвет продукта
                     tmpProducts = new Product[countOfProduct];//создаём новый динамический массив с чилом продуктов на 1 больше постоянного
                     for (y = 0; y < countOfProduct-1; y++)
@@ -167,16 +123,6 @@ int main()
                         break;}
             }
         }
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-
-    }
-
-
-=======
-
-=======
->>>>>>> Stashed changes
     }
 }
 
@@ -198,5 +144,3 @@ int main()
 
 
 
-
->>>>>>> master

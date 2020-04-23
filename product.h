@@ -20,38 +20,20 @@ public:
     void setColor(string color_in);
     string getName() const;//получить
     short getSize() const;
-<<<<<<< Updated upstream
     string getColor() const ;
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> master
-=======
-    string getColor() const ;
->>>>>>> Stashed changes
     Product& operator ++ (); //префиксный инкремент
     Product& operator -- (); // префиксный декремент
     Product operator ++ (int); //постфиксный инкремент
     Product operator -- (int); // постфиксный декремент
-    int operator == (const Product product11) const;// оператора равенства
-    int operator != (const Product product11) const;// оператора неравенства
-    int operator > (const Product product11) const;// оператора больше
-    int operator < (const Product product11) const;// оператора меньше
-    int operator >= (const Product product11) const;// оператора больше или равно
-    int operator <= (const Product product11) const;// оператора меньше или равно
+    int operator == (const Product product1) const;// оператора равенства
+    int operator != (const Product product1) const;// оператора неравенства
+    int operator > (const Product product1) const;// оператора больше
+    int operator < (const Product product1) const;// оператора меньше
+    int operator >= (const Product product1) const;// оператора больше или равно
+    int operator <= (const Product product1) const;// оператора меньше или равно
     Product& operator = (const Product product) ;// оператора присваивания
     friend istream& operator >> (istream &in, Product &product_in);// оператора ввода
     friend ostream& operator << (ostream &out, const Product &product_in) ;// оператора вывода
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-
-=======
->>>>>>> Stashed changes
->>>>>>> master
-=======
-
->>>>>>> Stashed changes
 };
 
 #endif // PRODUCT_H_INCLUDED
