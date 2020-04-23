@@ -23,6 +23,7 @@ using namespace std;
         this -> size = otherProduct.size;
         this -> color = otherProduct.color;
     }
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 
     void Product :: printInformationAboutProduct() const
@@ -34,6 +35,10 @@ using namespace std;
     void Product :: printInformationAboutProduct() const
 >>>>>>> Stashed changes
 >>>>>>> master
+=======
+
+    void Product :: printInformationAboutProduct() const
+>>>>>>> Stashed changes
     {
          cout << "Name: " << name << "\tSize: " << size << "\tColor: " << color << endl;
     }
@@ -62,6 +67,7 @@ using namespace std;
     {
         return color;
     }
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 
 
@@ -71,6 +77,9 @@ using namespace std;
 
 =======
 >>>>>>> master
+=======
+
+>>>>>>> Stashed changes
      Product& Product :: operator ++()//оператор увеличение поля
     {
         this->size ++;
@@ -131,6 +140,7 @@ using namespace std;
         return 1;
         return 0;
     }
+<<<<<<< Updated upstream
 
     int Product :: operator > (const Product product11) const
     {
@@ -178,4 +188,49 @@ using namespace std;
 =======
 >>>>>>> Stashed changes
 >>>>>>> master
+=======
+
+    int Product :: operator > (const Product product11) const
+    {
+        if (this->size < product11.size)
+        return 0;
+        return 1;
+    }
+
+    int Product :: operator <= (const Product product11) const
+    {
+        if (this->size <= product11.size)
+        return 1;
+        return 0;
+    }
+
+    int Product :: operator >= (const Product product11) const
+    {
+        if (this->size <= product11.size)
+        return 0;
+        return 1;
+    }
+
+    Product& Product :: operator = (const Product product11)
+    {
+        this->name = product11.name;
+        this->size = product11.size;
+        this->color = product11.color;
+        return *this;
+    }
+
+    ostream& operator << (ostream &out, const Product &product_in)//оператор вывода
+    {
+        out << "Name:\t" << product_in.name << "Size:\t" << product_in.size << "Color:\t" << product_in.color;
+        return out;
+    }
+    istream& operator >> (istream &in, Product &product_in)//оператор ввода
+    {
+        in >> product_in.name;
+        in >> product_in.size;
+        in >> product_in.color;
+        return in;
+    }
+
+>>>>>>> Stashed changes
 

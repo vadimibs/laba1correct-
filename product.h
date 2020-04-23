@@ -20,12 +20,16 @@ public:
     void setColor(string color_in);
     string getName() const;//получить
     short getSize() const;
+<<<<<<< Updated upstream
     string getColor() const ;
 <<<<<<< HEAD
 =======
 <<<<<<< Updated upstream
 =======
 >>>>>>> master
+=======
+    string getColor() const ;
+>>>>>>> Stashed changes
     Product& operator ++ (); //префиксный инкремент
     Product& operator -- (); // префиксный декремент
     Product operator ++ (int); //постфиксный инкремент
@@ -39,11 +43,15 @@ public:
     Product& operator = (const Product product) ;// оператора присваивания
     friend istream& operator >> (istream &in, Product &product_in);// оператора ввода
     friend ostream& operator << (ostream &out, const Product &product_in) ;// оператора вывода
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 
 =======
 >>>>>>> Stashed changes
 >>>>>>> master
+=======
+
+>>>>>>> Stashed changes
 };
 
 #endif // PRODUCT_H_INCLUDED

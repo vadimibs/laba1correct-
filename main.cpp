@@ -27,6 +27,7 @@ void infproduct(short countOfProduct, Product *Products)//выводит инф�
     for (short i = 0; i < countOfProduct; i++)
     {
         cout << i+1 << ")";//начинаем массив с ненулевого элемента
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 
         Products[i].printInformationAboutProduct();// вызовем функцию
@@ -44,10 +45,15 @@ void infproduct(short countOfProduct, Product *Products)//выводит инф�
     }
 
 >>>>>>> master
+=======
+        Products[i].printInformationAboutProduct();// вызовем функцию
+}
+>>>>>>> Stashed changes
 }
 
 int main()
 {
+<<<<<<< Updated upstream
 
    setlocale(LC_ALL, "Russian");
 <<<<<<< HEAD
@@ -55,6 +61,9 @@ int main()
 =======
 
 >>>>>>> master
+=======
+    setlocale(LC_ALL, "Russian");
+>>>>>>> Stashed changes
     string tmpName, tmpColor;//временное
     short var = 0, tmpsize = 0, countOfProduct = 1, i = 0, y = 0;//задаётся массив
     Product *Products = new Product[countOfProduct], *tmpProducts;//создаётся массив на кол-во продуктов
@@ -109,6 +118,7 @@ int main()
                     break;
                 case 7:
                     cout << "\n Color product:\t" << (tmpColor = Products[i-1].getColor()) << endl;
+<<<<<<< Updated upstream
                     break;
 <<<<<<< HEAD
 
@@ -123,6 +133,11 @@ int main()
                     {
 >>>>>>> Stashed changes
 >>>>>>> master
+=======
+                    break;
+                case 8:
+                    {
+>>>>>>> Stashed changes
                     countOfProduct++;//Цвет продукта
                     tmpProducts = new Product[countOfProduct];//создаём новый динамический массив с чилом продуктов на 1 больше постоянного
                     for (y = 0; y < countOfProduct-1; y++)
@@ -150,9 +165,9 @@ int main()
                         Products = tmpProducts;
                         i = 0;
                         break;}
-                    }
             }
         }
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 
     }
@@ -160,7 +175,28 @@ int main()
 
 =======
 
+=======
+>>>>>>> Stashed changes
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 >>>>>>> master
