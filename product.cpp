@@ -10,8 +10,10 @@ using namespace std;
         setSize(0);
     }
 
-    Product :: Product(string name, short size, string color)//конструктор с тремя параметрами
+    Product :: Product(string name, short size_in, string color)//конструктор с тремя параметрами
     {
+        if(!setSize(size_in))
+            this->size = size_in;
         setName(name);//установить имя
         setSize(size);
         setColor(color);
@@ -32,8 +34,13 @@ using namespace std;
     void Product :: setName(string name_in)//изменить имя
     {   this -> name = name_in;  }
 
-    void Product :: setSize(short size_in)
-    {   this -> size = size_in;  }
+     bool Product :: setSize(short size_in)
+    { if(size_in < 0)
+    return false;
+    else
+    this -> size = size_in;
+    return true;
+    }
 
     void Product :: setColor(string color_in)
     {   this -> color = color_in;  }
@@ -112,6 +119,7 @@ using namespace std;
         return 1;
         return 0;
     }
+<<<<<<< Updated upstream
 
     int Product :: operator > (const Product product1) const
     {
@@ -136,6 +144,32 @@ using namespace std;
 
     Product& Product :: operator = (const Product product1)
     {
+=======
+
+    int Product :: operator > (const Product product1) const
+    {
+        if (this->size < product1.size)
+        return 0;
+        return 1;
+    }
+
+    int Product :: operator <= (const Product product1) const
+    {
+        if (this->size <= product1.size)
+        return 1;
+        return 0;
+    }
+
+    int Product :: operator >= (const Product product1) const
+    {
+        if (this->size <= product1.size)
+        return 0;
+        return 1;
+    }
+
+    Product& Product :: operator = (const Product product1)
+    {
+>>>>>>> Stashed changes
         this->name = product1.name;
         this->size = product1.size;
         this->color = product1.color;

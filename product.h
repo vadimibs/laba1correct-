@@ -16,7 +16,7 @@ public:
     Product(const Product &product);//конструктор копирования
     void printInformationAboutProduct() const;
     void setName(string name_in);//установить имя
-    void setSize(short size_in);
+    bool setSize(short size_in);
     void setColor(string color_in);
     string getName() const;//получить
     short getSize() const;
@@ -28,6 +28,10 @@ public:
     int operator == (const Product product1) const;// оператора равенства
     int operator != (const Product product1) const;// оператора неравенства
     int operator > (const Product product1) const;// оператора больше
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     int operator < (const Product product1) const;// оператора меньше
     int operator >= (const Product product1) const;// оператора больше или равно
     int operator <= (const Product product1) const;// оператора меньше или равно

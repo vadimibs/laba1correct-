@@ -53,16 +53,27 @@
 	<string>
 	<cstring>
 
+<<<<<<< Updated upstream
 1587632675 source:c:\users\Татяна\desktop\labi\laba1correct;\main.cpp
+=======
+1587633106 source:c:\users\Татяна\desktop\labi\laba1correct;\main.cpp
+>>>>>>> Stashed changes
 	<iostream>
 	"product.h"
 	<string>
 	<stdlib.h>
 
+<<<<<<< Updated upstream
 1587632908 c:\users\Татяна\desktop\labi\laba1correct;\product.h
 	<string>
 
 1587632894 source:c:\users\Татяна\desktop\labi\laba1correct;\product.cpp
+=======
+1587842193 c:\users\Татяна\desktop\labi\laba1correct;\product.h
+	<string>
+
+1587842650 source:c:\users\Татяна\desktop\labi\laba1correct;\product.cpp
+>>>>>>> Stashed changes
 	<iostream>
 	"product.h"
 	<string>
